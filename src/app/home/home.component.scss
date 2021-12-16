@@ -1,0 +1,37 @@
+canvas {
+  border: 1px dotted black;
+  background: navy;
+}
+html{
+  background-color: black;
+}
+h1 {
+  position: absolute;
+  top: calc(50% - 200px/2);
+  left:  calc(50% - 400px/2);
+  font-size: 50px;
+  color: white;
+}
+
+img {
+  width: 250px;
+  position: absolute;
+  top: calc(50% - 250px/2);
+  left:  calc(50% - 250px/2);
+}
+button {
+  position: absolute;
+  top: calc(50% - 65px/2);
+  left:  calc(50% - 425px/2);
+  font-size: 40px;
+  //background: rgb(131,58,180);
+  //background: linear-gradient(90deg, rgba(131,58,180,0.5690476874343487) 0%, rgba(253,29,29,0.23571435410101538) 50%, rgba(252,176,69,0.5550420851934523) 100%);
+}
+
+
+mat-spinner{
+  position: absolute;
+  top: calc(50% - 90px/2);
+  left:  calc(50% - 90px/2);
+}
+

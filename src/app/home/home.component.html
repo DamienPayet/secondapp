@@ -1,0 +1,14 @@
+<div *ngIf="!loading">
+  <img src="assets/img/181534.png">
+  <div (mouseover)="rgb()">
+    <button [ngStyle]="{'color' : tcolor , 'background' : btnBgColor }" class="btn" (mouseleave)="rgb()" (click)="gOAuth()">
+      Connexion avec AuthX
+    </button>
+  </div>
+
+</div>
+<div *ngIf="loading">
+  <h1 >Connexion en cours ...</h1>
+  <mat-spinner ></mat-spinner>
+</div>
+
