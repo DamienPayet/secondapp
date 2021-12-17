@@ -46,7 +46,7 @@ export class HomeComponent implements OnInit {
 
   gOAuth() {
     this.loading = true
-    window.open("http://localhost:51595/auth?appId=45166135321651351");
+    window.open("https://diiage2-p2-g3.ml/auth?appId=560c855-da22-4c57-9559-08d9c1341cde");
     this.authService.login()
       .then(res =>
     {
